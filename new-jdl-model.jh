@@ -1,0 +1,15 @@
+ entity Recipe {
+ 	prepTime Integer,
+    cookTime Integer,
+    serving Integer,
+    source String,
+    url String,
+    directions String,
+    diffculty Difficulty,
+    image Byte[];
+ }
+ 
+ entity Difficulty
+{
+EASY, MODERATE, HARD
+}
